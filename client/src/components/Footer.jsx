@@ -49,30 +49,30 @@ function Footer() {
             <div className="flex flex-col gap-4">
               <h1 className="text-xl font-medium">MENU</h1>
               <ul className="text-lg text-slate-300 flex flex-col gap-2">
-                <li className="cursor-pointer">Home</li>
-                <li className="cursor-pointer">Service</li>
-                <li className="cursor-pointer">Our Work</li>
-                <li className="cursor-pointer">Project</li>
-                <li className="cursor-pointer">About Us</li>
+                <li className="cursor-pointer hover:text-white">Home</li>
+                <li className="cursor-pointer hover:text-white">Service</li>
+                <li className="cursor-pointer hover:text-white">Our Work</li>
+                <li className="cursor-pointer hover:text-white">Project</li>
+                <li className="cursor-pointer hover:text-white">About Us</li>
               </ul>
             </div>
             <div className="flex flex-col gap-4">
               <h1 className="text-xl font-medium">SERVICES</h1>
               <ul className="text-lg text-slate-300 flex flex-col gap-2">
-                <li className="cursor-pointer">Web & App Dev</li>
-                <li className="cursor-pointer">Social Media Marketing</li>
-                <li className="cursor-pointer">Email Marketing</li>
-                <li className="cursor-pointer">SEO</li>
-                <li className="cursor-pointer">Creative & Content</li>
+                <li className="cursor-pointer hover:text-white">Web & App Dev</li>
+                <li className="cursor-pointer hover:text-white">Social Media Marketing</li>
+                <li className="cursor-pointer hover:text-white">Email Marketing</li>
+                <li className="cursor-pointer hover:text-white">SEO</li>
+                <li className="cursor-pointer hover:text-white">Creative & Content</li>
               </ul>
             </div>
             <div className="flex flex-col gap-4">
               <h1 className="text-xl font-medium">SOCIAL MEDIA</h1>
               <ul className="text-lg text-slate-300 flex flex-col gap-2">
-                <li className="cursor-pointer">Instagram</li>
-                <li className="cursor-pointer">Twitter</li>
-                <li className="cursor-pointer">Linkedin</li>
-                <li className="cursor-pointer">Facebook</li>
+                <li className="cursor-pointer hover:text-white">Instagram</li>
+                <li className="cursor-pointer hover:text-white">Twitter</li>
+                <li className="cursor-pointer hover:text-white">Linkedin</li>
+                <li className="cursor-pointer hover:text-white">Facebook</li>
               </ul>
             </div>
           </div>

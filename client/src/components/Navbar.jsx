@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <>
       <motion.div
-        className="flex justify-between px-4 lg:px-10 py-6 lg:p items-center text-lg"
+        className="flex justify-between px-4 lg:px-10 py-6 lg:p items-center text-lg z-50"
         initial={{
           y: -50,
         }}
@@ -28,7 +28,7 @@ function Navbar() {
           <ul
             className={`lg:flex max-lg:flex-col gap-6 text-center max-lg:absolute max-lg:top-20 max-lg:right-0 max-lg:left-0 max-lg:py-4 ${
               open ? "flex" : "hidden"
-            } max-lg:bg-white max-lg:bg-opacity-90`}
+            } max-lg:bg-white max-lg:bg-opacity-90 z-50`}
           >
             <li>
               <a href="#" className="hover:text-green-900">
